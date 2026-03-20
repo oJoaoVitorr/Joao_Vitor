@@ -52,6 +52,24 @@
     <Compile Include="Exercicio1.Designer.cs">
       <DependentUpon>Exercicio1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio2.Designer.cs">
+      <DependentUpon>Exercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio3.Designer.cs">
+      <DependentUpon>Exercicio3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio4.Designer.cs">
+      <DependentUpon>Exercicio4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +80,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Exercicio1.resx">
       <DependentUpon>Exercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio2.resx">
+      <DependentUpon>Exercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio3.resx">
+      <DependentUpon>Exercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio4.resx">
+      <DependentUpon>Exercicio4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
