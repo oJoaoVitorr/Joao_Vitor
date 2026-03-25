@@ -70,6 +70,18 @@
     <Compile Include="Exercicio4.Designer.cs">
       <DependentUpon>Exercicio4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercicio5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio5.Designer.cs">
+      <DependentUpon>Exercicio5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio6.Designer.cs">
+      <DependentUpon>Exercicio6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,12 @@
     <EmbeddedResource Include="Exercicio4.resx">
       <DependentUpon>Exercicio4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio5.resx">
+      <DependentUpon>Exercicio5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio6.resx">
+      <DependentUpon>Exercicio6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -114,6 +133,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-seta-longa-à-direita-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-right-arrow-100.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

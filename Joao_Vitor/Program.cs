@@ -16,7 +16,7 @@ namespace Joao_Vitor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Exercicio3());
+            Application.Run(new Exercicio1());
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Joao_Vitor
 {
-    public partial class Exercicio4 : Form
+    public partial class Exercicio5 : Form
     {
-        public Exercicio4()
+        public Exercicio5()
         {
             InitializeComponent();
         }
@@ -20,10 +20,10 @@ namespace Joao_Vitor
         private void button1_Click(object sender, EventArgs e)
         {
             double c, f;
-            c = double.Parse(textBox1.Text);
-            f = (9 * c + 160) / 5;
-            label4.Text = f.ToString()+"°F";
-            textBox1 .Text = c+"°C";
+            f = double.Parse(textBox1.Text);
+            c = (f - 32.0) *(5.0 / 9.0);
+            label4.Text = c.ToString() + "°C";
+            textBox1.Text = f + "°F";
         }
 
         private void button2_Click(object sender, EventArgs e)
