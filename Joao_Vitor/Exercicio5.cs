@@ -28,8 +28,8 @@ namespace Joao_Vitor
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = string.Empty;
-            label4.Text = string.Empty;
+            textBox1.Text = "";
+            label4.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)

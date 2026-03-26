@@ -52,7 +52,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(52, 146);
+            this.label2.Location = new System.Drawing.Point(52, 140);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(517, 39);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(575, 146);
+            this.textBox1.Location = new System.Drawing.Point(575, 140);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(191, 49);
@@ -71,10 +71,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(281, 401);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(297, 302);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(457, 39);
+            this.label3.Size = new System.Drawing.Size(390, 33);
             this.label3.TabIndex = 3;
             this.label3.Text = "A área da circunferência é:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -83,7 +83,7 @@
             // 
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(351, 451);
+            this.label4.Location = new System.Drawing.Point(332, 346);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(316, 161);
             this.label4.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(424, 264);
+            this.button1.Location = new System.Drawing.Point(409, 217);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(173, 57);
             this.button1.TabIndex = 5;
@@ -112,7 +112,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(43, 600);
+            this.button2.Location = new System.Drawing.Point(35, 473);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(173, 57);
             this.button2.TabIndex = 6;
@@ -128,7 +128,7 @@
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(783, 600);
+            this.button3.Location = new System.Drawing.Point(760, 473);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(173, 57);
             this.button3.TabIndex = 7;
@@ -142,7 +142,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.CancelButton = this.button3;
-            this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
