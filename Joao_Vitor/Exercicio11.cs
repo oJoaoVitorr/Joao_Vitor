@@ -9,36 +9,33 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Joao_Vitor
-     
 {
-    public partial class Exercicio8 : Form
-       
+    public partial class Exercicio11 : Form
     {
-        public Exercicio8()
+        public Exercicio11()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a, b, c;
-            a=double.Parse(textBox1.Text);
-            b=double.Parse(textBox2.Text);
-            c = a;
-            a = b;
-            b = c;
+            int num;
+            num = int.Parse(textBox1.Text);
 
-
-            textBox1.Text = a.ToString();
-            textBox2.Text = b.ToString();
-
-
+            label4.Text = (num*num).ToString();
+            label5.Text = (num*num*num).ToString();
+            label6.Text = "o cubo de " + num + " é:";
+            label3.Text = "o quadrado de " + num +" é:";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            label4.Text = "";
+            label5.Text ="";
             textBox1.Text = "";
-            textBox2.Text = "";
+            label6.Text = "o cubo de x é:";
+            label3.Text = "o quadrado de x é:";
+
         }
 
         private void button3_Click(object sender, EventArgs e)

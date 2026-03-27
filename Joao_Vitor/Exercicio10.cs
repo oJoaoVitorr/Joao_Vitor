@@ -9,28 +9,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Joao_Vitor
-     
 {
-    public partial class Exercicio8 : Form
-       
+    public partial class Exercicio10 : Form
     {
-        public Exercicio8()
+        public Exercicio10()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a, b, c;
-            a=double.Parse(textBox1.Text);
-            b=double.Parse(textBox2.Text);
-            c = a;
-            a = b;
-            b = c;
+            double comp, lar, alt, vol;
+            comp= double.Parse(textBox1.Text);
+            lar= double.Parse(textBox3.Text);
+            alt= double.Parse(textBox2.Text);
 
+            vol = comp* lar * alt;
 
-            textBox1.Text = a.ToString();
-            textBox2.Text = b.ToString();
+            label6.Text=vol.ToString();
 
 
         }
@@ -39,6 +35,8 @@ namespace Joao_Vitor
         {
             textBox1.Text = "";
             textBox2.Text = "";
+            textBox3.Text = "";
+            label6.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
