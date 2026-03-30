@@ -70,6 +70,18 @@
     <Compile Include="Exercicio12.Designer.cs">
       <DependentUpon>Exercicio12.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exercicio13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio13.Designer.cs">
+      <DependentUpon>Exercicio13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercicio14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio14.Designer.cs">
+      <DependentUpon>Exercicio14.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercicio2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercicio12.resx">
       <DependentUpon>Exercicio12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio13.resx">
+      <DependentUpon>Exercicio13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercicio14.resx">
+      <DependentUpon>Exercicio14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exercicio2.resx">
       <DependentUpon>Exercicio2.cs</DependentUpon>

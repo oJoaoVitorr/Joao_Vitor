@@ -10,44 +10,37 @@ using System.Windows.Forms;
 
 namespace Joao_Vitor
 {
-    public partial class Exercicio12 : Form
+    public partial class Exercicio14 : Form
     {
-        public Exercicio12()
+        public Exercicio14()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num1, num2, soma;
-            num1 = int.Parse(textBox1.Text);
-            num2 = int.Parse(textBox2.Text);
-            soma = num2 + num1;
+            int num1, num2, media;
+            num1= int.Parse(textBox1.Text);
+            num2= int.Parse(textBox2.Text);
+            media = (num1+ num2) / 2;
 
-            label4.Text = (soma).ToString();
-            label5.Text = (soma*soma).ToString();
-            label6.Text = "O quadrado de " + soma + " é:";
-            
+            label5.Text = "A média entre " + num1 + " e " + num2 + " é:";
+            label4.Text = media.ToString();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             label4.Text = "";
-            label5.Text = "";
-            label6.Text = "O quadrado de x é:";
             textBox1.Text = "";
-            textBox2.Text = "";
+            textBox2.Text= "";
+            label5.Text = "A média entre A e B é:";
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void Exercicio12_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

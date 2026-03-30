@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Joao_Vitor
 {
-    public partial class Exercicio12 : Form
+    public partial class Exercicio13 : Form
     {
-        public Exercicio12()
+        public Exercicio13()
         {
             InitializeComponent();
         }
@@ -22,22 +22,26 @@ namespace Joao_Vitor
             int num1, num2, soma;
             num1 = int.Parse(textBox1.Text);
             num2 = int.Parse(textBox2.Text);
-            soma = num2 + num1;
+            soma = (num2*num2) + (num1*num1);
 
-            label4.Text = (soma).ToString();
-            label5.Text = (soma*soma).ToString();
-            label6.Text = "O quadrado de " + soma + " é:";
-            
+            label4.Text = (num1*num1).ToString();
+            label5.Text = (num2 * num2).ToString();
+            label8.Text = soma.ToString();
+            label3.Text = "O quadrado de " + num1 + " é:";
+            label6.Text = "O quadrado de " + num2 +" é:";
+            label9.Text = "A soma de " + num1 * num1 + " e " + num2 * num2 + " é:";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             label4.Text = "";
             label5.Text = "";
-            label6.Text = "O quadrado de x é:";
+            label8.Text = "";
+            label6.Text = "O quadrado de B é:";
+            label3.Text = "O quadrado de A é:";
+            label9.Text = "A soma de x e y é:";
             textBox1.Text = "";
             textBox2.Text = "";
-
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -45,7 +49,7 @@ namespace Joao_Vitor
             Application.Exit();
         }
 
-        private void Exercicio12_Load(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }
