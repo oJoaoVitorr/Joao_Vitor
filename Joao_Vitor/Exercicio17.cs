@@ -10,38 +10,34 @@ using System.Windows.Forms;
 
 namespace Joao_Vitor
 {
-    public partial class Exercicio3 : Form
+    public partial class Exercicio17 : Form
     {
-        public Exercicio3()
+        public Exercicio17()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double HT, VH, PD, SB, SL, TD;
+            int Int1, Int2, res, quo;
 
-            HT = double.Parse(textBox1.Text);
-           VH = double.Parse(textBox2.Text);
-            PD = double.Parse(textBox3.Text);
+            Int1= int.Parse(textBox1.Text);
+            Int2= int.Parse(textBox2.Text);
 
-            SB = HT * VH;
-            TD = (PD / 100) * SB;
-            SL = SB - TD;
-            label7.Text = SB.ToString();
-            label6.Text = Math.Round(SL, 2).ToString();
-            label9.Text = Math.Round(TD, 2).ToString();
+            quo = Int1 / Int2;
+            res= Int1 % Int2;
 
+            label4.Text = quo.ToString();
+            label5.Text = res.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
             textBox2.Text = "";
-            textBox3.Text = "";
-            label7.Text = "";
-            label6.Text = "";
-            label9.Text = "";
+            label4.Text = "";
+            label5.Text = "";
+
         }
 
         private void button3_Click(object sender, EventArgs e)

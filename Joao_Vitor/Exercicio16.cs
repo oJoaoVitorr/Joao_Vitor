@@ -10,31 +10,29 @@ using System.Windows.Forms;
 
 namespace Joao_Vitor
 {
-    public partial class Exercicio14 : Form
+    public partial class Exercicio16 : Form
     {
-        public Exercicio14()
+        public Exercicio16()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int Val1, Val2, media;
-            Val1= int.Parse(textBox1.Text);
-            Val2= int.Parse(textBox2.Text);
-            media = (Val1+ Val2) / 2;
+            double vel, velms;
 
-            label5.Text = "A média entre " + Val1 + " e " + Val2 + " é:";
-            label4.Text = media.ToString();
+            vel= double.Parse(textBox1.Text);
+            velms = vel/3.6;
+
+            textBox1.Text = vel.ToString()+"km/h";
+            label4.Text= Math.Round(velms, 2).ToString()+"m/s";
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label4.Text = "";
             textBox1.Text = "";
-            textBox2.Text= "";
-            label5.Text = "A média entre A e B é:";
+            label4.Text = "";
 
         }
 
