@@ -19,11 +19,38 @@ namespace Joao_Vitor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // int[] data = new int[3]; int i=0;
-            int dd, mm, aa;
-            dd= int.Parse(textBox1.Text);
+        
+            int d, m, a, temp;
+            d= int.Parse(textBox1.Text);
+            m= int.Parse(textBox3.Text);
+            a= int.Parse(textBox2.Text);
+
+            temp = d;
+            d = a;
+            a = temp;
+    
+            label4.Text = d.ToString() + "/" + m + "/" + a.ToString();
 
             
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            label4.Text = "";
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           Application.Exit();
         }
     }
 }

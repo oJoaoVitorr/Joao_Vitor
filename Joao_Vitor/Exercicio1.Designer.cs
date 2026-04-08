@@ -153,6 +153,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Exercicio1";
             this.Text = " Exercicio 1";
             this.ResumeLayout(false);
