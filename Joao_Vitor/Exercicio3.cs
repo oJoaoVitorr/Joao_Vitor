@@ -48,5 +48,10 @@ namespace Joao_Vitor
         {
             Application.Exit();
         }
+
+        private void Exercicio3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
